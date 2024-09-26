@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "QuickSave",
+  "description": "save text and urls for quick access",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "quicksave_icon.png"
+  }
+}
