@@ -4,23 +4,29 @@
   </head>
   <body>
     <div>
-      <h1 class="header">Save something new!</h1>
+      <h1><span>Quick</span>Save</h1>
+      <p class="subheader">Save and access those tiny hurdles quickly!</p>
     </div>
     <div>
       <button class="expand" id="accordion">Add new</button>
       <div class="input-grid">
         <label>
           name
-          <input type="text" required />
+          <input type="text" id="name" required />
         </label>
         <label>
           value
-          <input type="text" required />
+          <input type="text" id="value" required />
         </label>
-        <button class="submit-button">add</button>
+        <button id="submit-button" class="submit-button">add</button>
       </div>
     </div>
     <hr></hr>
+    <div class="content" id="content">
+      <ul id="bodyContent">
+
+      </ul>
+    </div>
     <script src="scripts/background.js"></script>
   </body>
 </html>

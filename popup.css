@@ -1,13 +1,32 @@
-.header {
+.subheader {
   font-size: small;
+  text-align: center;
+  margin-top: 2px;
 }
 
 body {
   width: 350px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  color: rgb(15, 121, 5);
+}
+
+h1 span {
+  color: #1a73e8;
 }
 
 input {
   width: 100%;
+  padding: 6px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
 }
 
 .expand {
@@ -32,8 +51,66 @@ input {
   flex-direction: column;
   gap: 3px;
   padding: 0 7px;
+  padding-bottom: 4px;
 }
 
 .submit-button {
   margin-top: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  margin: 4px;
+}
+
+li .listContent {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  margin-top: 2px;
+  border-radius: 3px;
+  padding-left: 6px;
+  border: 1px solid #9c9c9c;
+}
+
+.listContent button {
+  background-color: transparent;
+  border: 1px solid #1a73e8;
+  color: #1a73e8;
+  padding: 5px 5px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+.listContent button:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.button-end {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.listContent .item-key {
+  padding: 5px 10px;
+  font-size: 12px;
+  width: 70%;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
