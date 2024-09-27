@@ -15,7 +15,8 @@ body {
 h1 {
   text-align: center;
   margin: 0;
-  color: rgb(15, 121, 5);
+  color: #28b21b;
+  font-size: 30px;
 }
 
 h1 span {
@@ -31,7 +32,7 @@ input {
 
 .expand {
   background-color: hsl(0, 0%, 91%);
-  color: #000000;
+  color: #1a73e8;
   cursor: pointer;
   padding: 7px;
   width: 100%;
@@ -39,6 +40,7 @@ input {
   border: none;
   outline: none;
   transition: 0.4s;
+  text-align: center;
 }
 
 .active,
@@ -63,8 +65,8 @@ ul {
   padding: 0;
   display: flex;
   flex-direction: column;
-  max-height: 400px;
-  overflow: auto;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 
 li {
@@ -107,6 +109,7 @@ li .listContent {
 
 .listContent .item-key {
   padding: 5px 10px;
+  padding-left: 2px;
   font-size: 12px;
   width: 70%;
   white-space: nowrap;

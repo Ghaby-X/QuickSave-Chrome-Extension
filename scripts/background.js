@@ -45,7 +45,7 @@ addButton.addEventListener("click", function () {
       console.error("Error saving data:", chrome.runtime.lastError);
     } else {
       console.log("Data saved successfully");
-      alert("saved successfully");
+      console.log("saved successfully");
       // Clear input fields after successful save
       nameInput.value = "";
       valueInput.value = "";
