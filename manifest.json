@@ -6,5 +6,6 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "assets/quicksave_icon.png"
-  }
+  },
+  "permissions": ["storage"]
 }
