@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://img.icons8.com/?size=512&id=55494&format=png" width="20%" alt="QUICKSAVE-CHROME-EXTENSION-logo">
-</p>
+
 <p align="center">
     <h1 align="center">QUICKSAVE-CHROME-EXTENSION</h1>
 </p>
@@ -23,3 +21,29 @@
 </p>
 
 <br>
+
+## Overview
+Quicksave is a Chrome extension that lets you save and access texts quickly, just like a bookmark but for snippets of text. Whether it’s a URL, a note, or any other frequently used text, Quicksave is here to make your browsing more efficient.
+
+## Inspiration
+Quicksave was inspired by my personal experience while filling out numerous job and school application forms. One of the most common tasks I faced was repeatedly entering my LinkedIn profile link. Instead of constantly opening my LinkedIn page to copy the link, I thought, "Why dont I build an easy way to access frequently used text directly from my browser?" And so, Quicksave was born.
+
+## Features
+1. Quick Save & Access: Save any text (URLs, notes, etc.) with just a click and retrieve it instantly.
+2. Simple & Lightweight: Designed to be straightforward and easy to use.
+3. Persistent Storage: Saved texts are available even after closing the browser.
+4. Clean UI: A minimal interface that integrates seamlessly with Chrome.
+
+How to Use
+Save Text:
+Click the Quicksave icon in the toolbar.
+Enter the text or link you want to save and press "Save".
+Access Saved Texts:
+Click the Quicksave icon to see your saved texts.
+Click on any saved item to copy it to your clipboard instantly.
+
+## Contributing
+If you'd like to contribute to Quicksave or report any issues, feel free to submit a pull request or open an issue on GitHub.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
