@@ -39,9 +39,11 @@ Quicksave was inspired by my personal experience while filling out numerous job 
 4. Clean UI: A minimal interface that integrates seamlessly with Chrome.
 
 ## Installation
-1. Download the extension from chrome web store
-2. Once installed, click the quicksave icon in the extension toolbar
-3. Start saving your frequently used text
+1. Clone the repository
+2. Open chrome browser > click on the extension icon > click on manage extension
+3. activate developer mode by the toggle at the top right
+4. Click on load unpacked and select the cloned repository folder
+5. Click on the icon and start saving your frequently used text
 
 ## How to Use
 Save Text:
