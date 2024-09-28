@@ -46,7 +46,8 @@ Quicksave was inspired by my personal experience while filling out numerous job 
 ## How to Use
 Save Text:
 1. Click the Quicksave icon in the toolbar.
-2. Enter the text or link you want to save and press "Save".
+2. Enter the text or link you want to save and press "add".
+
 Access Saved Texts:
 1. Click the Quicksave icon to see your saved texts.
 2. Click on any saved item to copy it to your clipboard instantly.
