@@ -1,14 +1,17 @@
 var accordion = document.getElementById("accordion");
 
-accordion.addEventListener("click", function () {
-  this.classList.toggle("active");
+function toggle_form(){
+  accordion.classList.toggle("active");
 
-  var panel = this.nextElementSibling;
+  let panel = accordion.nextElementSibling;
   if (panel.style.display == "flex") {
     panel.style.display = "none";
   } else {
     panel.style.display = "flex";
   }
+}
+accordion.addEventListener("click", function () {
+ toggle_form();
 });
 
 // ==========================================
@@ -52,6 +55,7 @@ addButton.addEventListener("click", function () {
       displayItem();
     }
   });
+  toggle_form();
 });
 
 // ===========================================
